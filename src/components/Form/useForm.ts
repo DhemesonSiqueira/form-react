@@ -94,7 +94,8 @@ const useFormGroup = () => {
   });
 
   const handleSubmitForm = (data: CreateUserForm) => {
-    console.log({ data });
+    alert("Usuário cadastrado com sucesso! ------ Dados no console")
+    console.log(data);
   };
 
   const handleShowPassword = () => {
