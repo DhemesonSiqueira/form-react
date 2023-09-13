@@ -1,27 +1,41 @@
-# React + TypeScript + Vite
+# Formulário React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto criado para treinar o desenvolvimento de formulários usando React. Foi utilizada as APIs
+[VIACEP](https://viacep.com.br/)
+e do [IBGE](https://servicodados.ibge.gov.br/api/docs/localidades) para preenchimento automático dos campos de endereço.
 
-Currently, two official plugins are available:
+## Stack utilizada
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Front-end:** React, Vite, TypeScript, TailwindCSS, React Hook Form, Zod, ShadcnUI, Axios, React Query
 
-## Expanding the ESLint configuration
+## Rodando localmente
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Clone o projeto
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```bash
+  git clone https://github.com/DhemesonSiqueira/form-react.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Entre no diretório do projeto
+
+```bash
+  cd form-react
+```
+
+Instale as dependências
+
+```bash
+  npm install
+```
+
+Inicie o servidor
+
+```bash
+  npm run dev
+```
+
+## 🔗 Links
+
+[![email](https://img.shields.io/badge/email-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhemeson_loran@hotmail.com)
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/DhemesonSiqueira)
